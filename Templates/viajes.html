@@ -1,0 +1,13 @@
+{% extends 'layout1.html' %}
+
+{% block body %}
+    <h1>Viajes</h1>
+    <ul class="list-group">
+        {% for viajes in viajes %}
+            <li class="list-group-item">{{viajes.title}}</li>
+            <li class="list-group-item">{{viajes.title}}</li>
+            <li class="list-group-item">{{viajes.title}}</li>
+            <li class="list-group-item">{{viajes.title}}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
